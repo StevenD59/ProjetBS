@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <div class="col-3 bg-primary">
+            <a href="/index.html">
+                <picture class="">
+                    <img src="/Images/logo.svg" alt="" class="img-fluid my-2">
+                </picture>
+            </a>
+        </div>
+        <div class="col-6 bg-primary">
+            <div class="form-group vertical-center">
+                <input class="form-control" type="search" name="" placeholder="Champ de recherche" id="search">
+            </div>
+        </div>
+        <div class="col-3 bg-primary">
+            <div class="row h-100">
+                <div class="col-4 offset-2 align-self-center text-center">
+                    <a class="text-white" href="/App/customer-infos.html" role="button">
+                        <figure>
+                            <img src="/Images/user-xxl.png" alt="" class="img-fluid"><br>
+                            <span class="d-none d-lg-inline text-white">Mon Compte</span>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-4 align-self-center text-center">
+                    <a class="text-white" href="/App/cart.html" role="button">
+                        <figure>
+                            <img src="/Images/shopping-basket-xxl.png" alt="" class="img-fluid"><br>
+                            <figcaption class="d-none d-lg-inline text-white">Mon Panier</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="megamenu" class="menu-container">
+    </div>
+
+    <div class="mainpage container">
+        <nav aria-label="Page breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href='/index.html'>Acceuil</a></li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-4">
+                <fieldset>
+                    <legend>Filtre</legend>
+                    <div id="filter-color">
+                        <span>Couleur</span>
+                    </div>
+                    <div id="filter-style" class="mt-2">
+                        <span>Style</span>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-8 d-flex" id="productslist">
+
+            </div>
+        </div>
+    </div>
+
+    <footer><div class="row bg-primary align-self-center">
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <div class="col-1">
+                <img src="/Images/facebook.png" class="img-fluid resize1" alt="">
+            </div>
+            <div class="col-1">
+                <img src="/Images/twitter.png" class="img-fluid resize1" alt="">
+            </div>
+            <div class="col-1">
+                <img src="/Images/instagram.png" class="img-fluid resize1" alt="">
+            </div>
+        </div>
+    </div>
+</div></footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+
+</body>
+
+</html>

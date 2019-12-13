@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <link rel="stylesheet" href="..//css/ionicons.min.css" type="text/css" />
+                <link rel="stylesheet" href="..//css/style.css" type="text/css" />
+                <link rel="stylesheet" href="testcss.css">
+                <title>Recapitulatif panier</title>
+            </head>
+
+<body>
+        <header class="container-fluid">
+                <div class="row bg-primary">
+                    <div class="col-6 col-md-3">
+                        <img src="..//Images/logokiabi.png" alt="" class="img-fluid">
+                    </div>
+                    <div class=" col-12 col-md-6 my-auto order-last order-md-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-group screen1">
+                                            <input id="tags" class="form-control border-secondary py-2" type="search"
+                                            value="">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary bg-white screen1" type="button">
+                                                <i class="fa fa-search"><img src="Logo/iconsearch.png" alt=""
+                                                        class="img-fluid"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 my-auto">
+                        <div class="row text-center">
+                            <div class="col-4 offset-2">
+                                <img src="Logo/user-xxl.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="Logo/shopping-basket-xxl.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    <div class="menu-container-fluid">
+        <div class="menu text-center">
+            <ul>
+                <li class="w-25 bg-dark text-white border">Homme
+                    <ul class="bg-dark">
+                        <li class="survol">Vêtements
+                            <ul>
+                                <li class="survol1">T-Shirt </li>
+                                <li class="survol2">Polo</li>
+                                <li class="survol3">Pull</li>
+                            </ul>
+                        </li>
+                        <li><img src="..//Images/imgcat/homme/ts/default.jpg" alt="" class="img-fluid test12"></li>
+                        <li><img src="..//Images/imgcat/homme/polo.jpg" alt="" class="img-fluid test13"></li>
+                        <li><img src="..//Images/imgcat/homme/pull/default.jpg" alt="" class="img-fluid test14">
+                        </li>
+                    </ul>
+                </li>
+                <li class="w-25 bg-dark text-white border">Femme
+                    <ul class="bg-dark">
+                        <li>Vêtements
+                            <ul>
+                                <li class="survol4">T-shirt</li>
+                                <li class="survol5">Débardeur</li>
+                                <li class="survol6">Pull</li>
+                            </ul>
+                        </li>
+                        <li><img src="..//Images/imgcat/femme/ts/default.jpg" alt="" class="img-fluid test15"></li>
+                        <li><img src="..//Images/imgcat/femme/debardeurfemme.jpg" alt="" class="img-fluid test16">
+                        </li>
+                        <li><img src="..//Images/imgcat/femme/pull/default.jpg" alt="" class="img-fluid test17">
+                        </li>
+                    </ul>
+                </li>
+                <li class="w-25 bg-dark text-white border">Garçon
+                    <ul class="bg-dark">
+                        <li>Vêtements
+                            <ul>
+                                <li class="survol7">T-shirt</li>
+                                <li class="survol8">Pull</li>
+                                <li class="survol9">Pantalon</li>
+                            </ul>
+                        </li>
+                        <li><img src="..//Images/imgcat/garcon/ts/default.jpg" alt="" class="img-fluid test18"></li>
+                        <li><img src="..//Images/imgcat/garcon/pull/default.jpg" alt="" class="img-fluid test19">
+                        </li>
+                        <li><img src="..//Images/imgcat/garcon/pantalon/default.jpg" alt="" class="img-fluid test20">
+                        </li>
+                    </ul>
+                </li>
+                <li class="w-25 bg-dark text-white border">Fille
+                    <ul class="bg-dark">
+                        <li>Vêtements
+                            <ul>
+                                <li class="survol10">T-shirt</li>
+                                <li class="survol11">Pull</li>
+                                <li class="survol12">Robe</li>
+                            </ul>
+                        </li>
+                        <li><img src="..//Images/imgcat/fille/ts/default.jpg" alt="" class="img-fluid test18"></li>
+                        <li><img src="..//Images/imgcat/fille/pull/default.jpg" alt="" class="img-fluid test19">
+                        </li>
+                        <li><img src="..//Images/imgcat/fille/robe/default.jpg" alt="" class="img-fluid test20">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="offset-1 col-10">
+                <h3 class="text-center mb-3">Récapitulatif panier</h3>
+                <table class="table">
+                        <thead class="thead bg-primary">
+                            <tr class="text-white">
+    
+                                <th scope="col">Nom du produit</th>
+                                <th scope="col">Quantité</th>
+                                <th scope="col">Prix</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+    
+                                <td class="col-5"><img src="..//Images/imgcat/homme/hommepullmini.jpg" alt="" class="img-fluid">Pull</td>
+                                <td><form id='myform' method='POST' action='#' class="col-12 col-md-8 col-lg-5">
+                                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                                    <input type='text' name='quantity' value='0' class='qty' />
+                                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                                </form></td>
+                                <td>19.99€</td>
+                            </tr>
+                            <tr>
+    
+                                <td class="col-4"><img src="..//Images/imgcat/fille/tshirtfillemini.jpg" alt="" class="img-fluid">T-shirt fille</td>
+                                <td><form id='myform' method='POST' action='#' class="col-12 col-md-8 col-lg-5">
+                                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                                    <input type='text' name='quantity' value='0' class='qty' />
+                                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                                </form></td>
+                                <td>9.99€</td>
+                            </tr>
+                            <tr>
+    
+                                <td class="col-4"><img src="..//Images/imgcat/femme/pullfemmemini.jpg" alt="" class="img-fluid">Pull femme</td>
+                                <td><form id='myform' method='POST' action='#' class="col-12 col-md-8 col-lg-5">
+                                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                                    <input type='text' name='quantity' value='0' class='qty' />
+                                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                                </form></td>
+                                <td>19.99€</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                <div class="text-center mb-2"><button type="button" class="btn btn-primary btn-sm">Valider</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <footer class="container-fluid">
+        <div class="row bg-primary">
+            <div class="col-12 pt-3">
+                <div class="row justify-content-center align-self-center">
+                    <div class="col-4 col-md-2 text-center">
+                        <img src="Logo/facebook.png" class="img-fluid resize1 logoSize" alt="">
+                        <p class="mt-1">Mentions légales</p>
+                    </div>
+                    <div class="col-4 col-md-2 text-center">
+                        <img src="Logo/twitter.png" class="img-fluid resize1 logoSize" alt="">
+                        <p class="mt-1">Qui sommes nous?</p>
+                    </div>
+                    <div class="col-4 col-md-2 text-center">
+                        <img src="Logo/instagram.png" class="img-fluid resize1 logoSize" alt="">
+                        <p class="mt-1">CGV</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+    <!-- Script -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="..//js/megamenu.js"></script>
+    <script src="testmega.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

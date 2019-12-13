@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body class="container-fluid">
+    <header>
+        <div class="col-3 bg-primary">
+            <a href="/index.html">
+                <picture class="">
+                    <img src="/Images/logo.svg" alt="" class="img-fluid my-2">
+                </picture>
+            </a>
+        </div>
+        <div class="col-6 bg-primary">
+            <div class="form-group vertical-center">
+                <input class="form-control" type="search" name="" placeholder="Champ de recherche" id="search">
+            </div>
+        </div>
+        <div class="col-3 bg-primary">
+            <div class="row h-100">
+                <div class="col-4 offset-2 align-self-center text-center">
+                    <a class="text-white" href="/App/customer-infos.html" role="button">
+                        <figure>
+                            <img src="/Images/user-xxl.png" alt="" class="img-fluid"><br>
+                            <span class="d-none d-lg-inline text-white">Mon Compte</span>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-4 align-self-center text-center">
+                    <a class="text-white" href="/App/cart.html" role="button">
+                        <figure>
+                            <img src="/Images/shopping-basket-xxl.png" alt="" class="img-fluid"><br>
+                            <figcaption class="d-none d-lg-inline text-white">Mon Panier</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="megamenu" class="menu-container">
+    </div>
+
+    <div class="mainpage container">
+        <div class="row mt-5">
+            <div class="col-4">
+                <div class="row mt-1">
+                    <button type="button" class="btn btn-primary btn-sm w-50">Mes infos</button>
+                </div>
+                <div class="row mt-1">
+                    <button type="button" class="btn btn-primary btn-sm w-50">Mes adresses</button>
+                </div>
+                <div class="row mt-1">
+                    <button type="button" class="btn btn-primary btn-sm w-50">Mes commandes</button>
+                </div>
+            </div>
+
+            <div class="col-8 text-center mb-5">
+                <form action="">
+
+                    <fieldset>
+                        <legend class="info">Mes adresses</legend>
+
+                        <div class="offset-md-1 col-md-10">
+                            <table class="table">
+                                <thead class="thead bg-primary">
+                                    <tr class="text-white">
+                                        <th scope="col">Adresses</th>
+                                        <th scope="col"></th>
+
+                                    </tr>
+                                </thead>
+
+
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">x Rue Léon Blum</th>
+
+
+                                        <td>
+                                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-secondary">
+                                                    <a class="modify-address">Modifier</a>
+                                                </label>
+                                                <label class="btn btn-secondary">
+                                                    <input type="radio" name="options" id="option2"
+                                                        autocomplete="off">Supprimer
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">x Rue Léon Blum</th>
+
+
+                                        <td>
+                                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-secondary">
+                                                    <a class="modify-address">Modifier</a>
+                                                </label>
+                                                <label class="btn btn-secondary">
+                                                    <input type="radio" name="options" id="option2"
+                                                        autocomplete="off">Supprimer
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">x Rue Léon Blum</th>
+
+
+                                        <td>
+                                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-secondary">
+                                                    <a class="modify-address">Modifier</a>
+                                                </label>
+                                                <label class="btn btn-secondary">
+                                                    <input type="radio" name="options" id="option2"
+                                                        autocomplete="off">Supprimer
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+
+                        <div id="dialog-form" title="Modifier adresse">
+                            <form class="container text-center">
+                                <fieldset>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">N°</label>
+                                        <div class="col-sm-8 mx-auto">
+                                            <input type="text" class="form-control" id="inputPassword">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Rue</label>
+                                        <div class="col-sm-8 mx-auto">
+                                            <input type="text" class="form-control" id="inputPassword">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Ville</label>
+                                        <div class="col-sm-8 mx-auto">
+                                            <input type="text" class="form-control" id="inputPassword">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Code postal</label>
+                                        <div class="col-sm-8 mx-auto">
+                                            <input type="text" class="form-control" id="inputPassword">
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="text-center mb-2"><button type="button"
+                                class="btn btn-primary btn-sm">Valider</button></div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer><div class="row bg-primary align-self-center">
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <div class="col-1">
+                <img src="/Images/facebook.png" class="img-fluid resize1" alt="">
+            </div>
+            <div class="col-1">
+                <img src="/Images/twitter.png" class="img-fluid resize1" alt="">
+            </div>
+            <div class="col-1">
+                <img src="/Images/instagram.png" class="img-fluid resize1" alt="">
+            </div>
+        </div>
+    </div>
+</div></footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+
+
+</body>
+
+</html>

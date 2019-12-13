@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Paiement</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="col-3 bg-primary">
+            <a href="/index.html"><picture class="">
+                <img src="/Images/logo.svg" alt="" class="img-fluid my-2">
+            </picture>
+        </a>
+        </div>
+        <div class="col-6 bg-primary">
+            <div class="form-group vertical-center">
+                <input class="form-control" type="search" name="" placeholder="Champ de recherche" id="search">
+            </div>
+        </div>
+        <div class="col-3 bg-primary">
+            <div class="row h-100">
+                <div class="col-4 offset-2 align-self-center text-center">
+                    <a class="text-white" href="/App/customer-infos.html" role="button">
+                        <figure>
+                            <img src="/Images/user-xxl.png" alt="" class="img-fluid"><br>
+                            <span class="d-none d-lg-inline text-white">Mon Compte</span>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-4 align-self-center text-center">
+                    <a class="text-white" href="/App/cart.html" role="button">
+                        <figure>
+                            <img src="/Images/shopping-basket-xxl.png" alt="" class="img-fluid"><br>
+                            <figcaption class="d-none d-lg-inline text-white">Mon Panier</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="menu-container-fluid">
+        <div class="menu text-center">
+            <ul>
+                <li class="w-25 bg-dark text-white border">Homme
+                    <ul class="bg-dark">
+                        <li class="survol">Vêtements
+                            <ul>
+                                <li class="survol1">T-Shirt </li>
+                                <li class="survol2">Polo</li>
+                                <li class="survol3">Pull</li>
+                            </ul>
+                        </li>
+                        <li><img src="/Images/imgcat/tshirt.jpg" alt="" class="img-fluid test12"></li>
+                        <li><img src="/Images/imgcat/polo.jpg" alt="" class="img-fluid test13"></li>
+                        <li><img src="/Images/imgcat/pull.jpg" alt="" class="img-fluid test14"></li>
+                    </ul>
+                </li>
+                <li class="w-25 bg-dark text-white border">Femme
+                    <ul class="bg-dark">
+                        <li>Vêtements
+                            <ul>
+                                <li class="survol4">T-shirt</li>
+                                <li class="survol5">Débardeur</li>
+                                <li class="survol6">Pull</li>
+                            </ul>
+                        </li>
+                        <li><img src="/Images/imgcat/tshirtfemme.jpg" alt="" class="img-fluid test15"></li>
+                        <li><img src="/Images/imgcat/debardeurfemme.jpg" alt="" class="img-fluid test16"></li>
+                        <li><img src="/Images/imgcat/pullfemme.jpg" alt="" class="img-fluid test17"></li>
+                    </ul>
+                </li>
+                <li class="w-25 bg-dark text-white border">Garçon
+                    <ul class="bg-dark">
+                        <li>Vêtements
+                            <ul>
+                                <li class="survol7">T-shirt</li>
+                                <li class="survol8">Pull</li>
+                                <li class="survol9">Pantalon</li>
+                            </ul>
+                        </li>
+                        <li><img src="/Images/imgcat/tshirtgarçon.jpg" alt="" class="img-fluid test18"></li>
+                        <li><img src="/Images/imgcat/pullgarcon.jpg" alt="" class="img-fluid test19"></li>
+                        <li><img src="/Images/imgcat/pantalongarcon.jpg" alt="" class="img-fluid test20"></li>
+                    </ul>
+                </li>
+                <li class="w-25 bg-dark text-white border">Fille
+                    <ul class="bg-dark">
+                        <li>Vêtements
+                            <ul>
+                                <li class="survol10">T-shirt</li>
+                                <li class="survol11">Pull</li>
+                                <li class="survol12">Robe</li>
+                            </ul>
+                        </li>
+                        <li><img src="/Images/imgcat/tshirtfille.jpg" alt="" class="img-fluid test18"></li>
+                        <li><img src="/Images/imgcat/pullfille.jpg" alt="" class="img-fluid test19"></li>
+                        <li><img src="/Images/imgcat/robefille.jpg" alt="" class="img-fluid test20"></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="container border">
+        <div class="padding">
+            <div class="row">
+                <div class="container-fluid d-flex justify-content-center">
+                    <div class="col-sm-8 col-md-6">
+                        <form class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-6"> <span>PAIEMENT CARTE BANCAIRE</span> </div>
+                                    <div class="col-md-6 text-right" style="margin-top: -5px;"> <img
+                                            src="https://img.icons8.com/color/36/000000/visa.png"> <img
+                                            src="https://img.icons8.com/color/36/000000/mastercard.png"> </div>
+                                </div>
+                            </div>
+                            <div class="card-body" style="height: 350px">
+                                <div class="form-group"> <label for="cc-number" class="control-label">Numéro de
+                                        carte</label> <input id="cc-number" type="number"
+                                        class="input-lg form-control cc-number" autocomplete="cc-number"
+                                        placeholder="•••• •••• •••• ••••" required> </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="cc-exp"
+                                                class="control-label">Expiration</label> <input id="cc-exp" type="tel"
+                                                class="input-lg form-control cc-exp" autocomplete="cc-exp"
+                                                placeholder="•• / ••" required> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="cc-cvc"
+                                                class="control-label">Cryptogramme</label> <input id="cc-cvc"
+                                                type="number" class="input-lg form-control cc-cvc" autocomplete="off"
+                                                placeholder="••••" required> </div>
+                                    </div>
+                                </div>
+                                <div class="form-group"> <label for="numeric" class="control-label">Nom du propriétaire
+                                        de la carte</label> <input type="text" class="input-lg form-control"> </div>
+                                <div class="form-group"> <input value="Valider le paiement" type="submit"
+                                        class="btn btn-success btn-lg form-control" style="font-size: .8rem;"> </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <footer class="container-fluid">
+        <div class="row bg-primary align-self-center">
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-1">
+                        <img src="Logo/facebook.png" class="img-fluid resize1" alt="">
+                    </div>
+                    <div class="col-1">
+                        <img src="Logo/twitter.png" class="img-fluid resize1" alt="">
+                    </div>
+                    <div class="col-1">
+                        <img src="Logo/instagram.png" class="img-fluid resize1" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+
+
+
+</body>
+
+</html>

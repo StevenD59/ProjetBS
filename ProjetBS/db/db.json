@@ -1,0 +1,215 @@
+{
+	"products": [
+		{
+			"id": "1",
+			"idCategory": "1",
+			"idSubCategory": "1",
+			"name": "T-shirt coton bio éco-conception",
+			"desc_short": "Avec cette nouvelle ligne, Kiabi s’engage avec style en développant sa gamme « éco-conception ».",
+			"price": "6",
+			"desc_long": "Les essentiels de notre garde-robe sont non seulement réinventés et sublimés, mais aussi et surtout inscrits au cœur des enjeux environnementaux textiles. Moins de produits chimiques et d’eau pour la culture du coton : un environnement préservé et des agriculteurs en meilleure santé pour un coton toujours aussi beau. Vous aussi… En lavant vos vêtements à 30°c ou à froid, vous continuerez avec nous cette démarche ! ",
+			"nbImages": "3",
+			"tags": "color-beige style-image"
+		}, {
+			"id": "2",
+			"idCategory": "1",
+			"idSubCategory": "1",
+			"name": "T-shirt piqué bio éco-conception",
+			"desc_short": "Avec cette nouvelle ligne, Kiabi s’engage avec style en développant sa gamme « éco-conception ».",
+			"price": "10",
+			"desc_long": "Les essentiels de notre garde-robe sont non seulement réinventés et sublimés, mais aussi et surtout inscrits au cœur des enjeux environnementaux textiles.<br>Moins de produits chimiques et d’eau pour la culture du coton : un environnement préservé et des agriculteurs en meilleure santé pour un coton toujours aussi beau.<br>Vous aussi…<br>En lavant vos vêtements à 30°c ou à froid, vous continuerez avec nous cette démarche !",
+			"nbImages": "3",
+			"tags": "color-bleu style-ecriture",
+			"discount":"15%"
+		}, {
+			"id": "3",
+			"idCategory": "1",
+			"idSubCategory": "2",
+			"name": "Polo slim micro motifs",
+			"desc_short": "L'indispensable polo pur coton revisité ici par ses micro motifs et de fins liserés contrastés.",
+			"price": "10",
+			"desc_long": "- Polo en piqué de coton<br>- Slim fit / Coupe ajustée<br>- Imprimé allover, motifs différents selon le coloris choisi<br>- Col boutonné<br>- Manches courtes<br>- Patte 3 boutons à l'encolure<br>- Fins bords contrastés en finition<br>- Fentes côtés à la base<br>- Longueur dos 76 cm environ ",
+			"nbImages": "3",
+			"tags": "color-aqua style-uni"
+		}, {
+			"id": "4",
+			"idCategory": "1",
+			"idSubCategory": "2",
+			"name": "Polo rayé esprit rugby",
+			"desc_short": "Confort et élégance grâce à ce polo manches longues !",
+			"price": "18",
+			"desc_long": "- Polo 100% coton style rugby<br>- Regular fit / coupe droite<br>- Manches longues<br>- Col polo uni pointes libres<br>- Ouverture 3 boutons sous patte<br>- Rayures larges horizontales all over<br>- Fentes côtés à la base<br>- Longueur dos : 77 cm",
+			"nbImages": "3",
+			"tags": "color-rouge color-noir style-raye"
+		}, {
+			"id": "11",
+			"idCategory": "2",
+			"idSubCategory": "4",
+			"name": "Débardeur à volants",
+			"desc_short": "Un top avec des volants fins et légers !",
+			"price": "5.6",
+			"desc_long": "- Débardeur en viscose stretch<br>- Fines bretelles<br>- Encolure ronde<br>- Volants détails macramé<br>- Longueur dos : 61 cm environ ",
+			"nbImages": "3",
+			"tags": "color-bleu-marine style-uni"
+		}, {
+			"id": "12",
+			"idCategory": "2",
+			"idSubCategory": "4",
+			"name": "Crop top débardeur dos smocké",
+			"desc_short": "Rayures 'seersucker' tendances et maille confortable pour ce crop top !",
+			"price": "6",
+			"desc_long": "- Débardeur crop en jersey stretch<br>- Rayures 'seersucker' (aspect gaufré)<br>- Larges bretelles et dos smocké<br>- Boutonnage fantaisie aspect bois<br>- Fronces au niveau de la poitrine<br>- Longueur dos : 54 cm environ (bretelles comprises) ",
+			"nbImages": "3",
+			"tags": "color-blanc style-raye"
+		}, {
+			"id": "13",
+			"idCategory": "2",
+			"idSubCategory": "1",
+			"name": "T-shirt print 'Dumbo'",
+			"desc_short": "Un t-shirt qui vous emmène dans le monde merveilleux de 'Disney' !",
+			"price": "6",
+			"desc_long": "- Tee-shirt en coton et modal 'Disney'<br>- Col rond<br>- Manches courtes<br>- Imprimé 'Dumbo' devant<br>- Longueur dos : 63 cm environ ",
+			"nbImages": "3",
+			"tags": "color-noir style-image"
+		}, {
+			"id": "14",
+			"idCategory": "2",
+			"idSubCategory": "1",
+			"name": "T-shirt 'Pink Floyd'",
+			"desc_short": "Rock'n'roll ce tee-shirt à l'effigie du huitième album des Pink Floyd !",
+			"price": "7.8",
+			"desc_long": "- Tee-shirt en jersey pur coton<br>- Col rond<br>- Manches courtes à revers<br>- Imprimé 'Pink Floyd' devant<br>- Dos uni<br>- Longueur dos : 69 cm environ ",
+			"nbImages": "3",
+			"tags": "color-blanc style-ecriture"
+		}
+, {
+			"id": "21",
+			"idCategory": "3",
+			"idSubCategory": "1",
+			"name": "T-shirt logo 'Fortnite'",
+			"desc_short": "Votre jeu vidéo préféré jusqu'au dressing ! ",
+			"price": "8",
+			"desc_long": "- T-shirt 'Fortnite'<br>- Col rond<br>- Manches longues<br>- Imprimé à l'avant<br>- Etiquette 'Fortnite' sur la manche",
+			"nbImages": "2",
+			"tags": "color-gris style-image"
+		}, {
+			"id": "22",
+			"idCategory": "3",
+			"idSubCategory": "1",
+			"name": "T-shirt imprimé 'Donald'",
+			"desc_short": "Ses personnages préférés sur son t-shirt !",
+			"price": "3.5",
+			"desc_long": "- T-shirt en jersey en coton 'Disney'<br>- Col rond<br>- Manches courtes<br>- Imprimé 'Donald'",
+			"nbImages": "2",
+			"tags": "color-bleu style-image"
+		}, {
+			"id": "23",
+			"idCategory": "3",
+			"idSubCategory": "3",
+			"name": "Pull de Noël",
+			"desc_short": "Prêt pour les fêtes avec ce pull de Noël !",
+			"price": "12",
+			"desc_long": "- Sweat de Noël en maille<br>- Col rond<br>- Manches longues<br>- Imprimé all-over",
+			"nbImages": "2",
+			"tags": "color-noir style-ecriture style-image"
+		}, {
+			"id": "24",
+			"idCategory": "3",
+			"idSubCategory": "3",
+			"name": "Pull en maille à capuche",
+			"desc_short": "Un pull en maille qui s'accorde avec tous ses pantalons et qui protège bien du froid grâce à sa capuche !",
+			"price": "12",
+			"desc_long": "- Pull en maille tricot<br>- Avec capuche<br>- Manches longues<br>- Bandes contrastantes effet color block<br>- Finitions bords-côtes",
+			"nbImages": "3",
+			"tags": "color-noir style-raye"
+		}, {
+			"id": "31",
+			"idCategory": "4",
+			"idSubCategory": "6",
+			"name": "Robe détails dorés en mousseline",
+			"desc_short": "Parfaite pour les fêtes mais également les autres jours !",
+			"price": "13",
+			"desc_long": "- Robe en mousseline motifs doré<br>- Col rond<br>- Manches longues à poignets 2 boutons<br>- Ouverture avec 3 boutons dorés au dos<br>- Etoiles dorées imprimées all over<br>- 2 volants et 4 boutons décoratifs aux épaules<br>- Taille marquée avec bandeau élastiqué en lurex doré<br>- Doublée sur toute la longueur, manches incluses",
+			"nbImages": "3",
+			"tags": "color-rouge style-motif"
+		}, {
+			"id": "32",
+			"idCategory": "4",
+			"idSubCategory": "6",
+			"name": "Robe pull à volant",
+			"desc_short": "Une robe pull toute douce qui s'anime d'un petit volant asymétrique. Une pièce facile à porter et bien chaude !",
+			"price": "12",
+			"desc_long": "- Robe pull en maille douce et chaude<br>- Maille chinée<br>- Volant asymétrique devant<br>- Taille froncée<br>- Col rond, manches longues<br>- Finitions par petits bords-côtes",
+			"nbImages": "3",
+			"tags": "color-bleu-marine style-uni"
+		}, {
+			"id": "33",
+			"idCategory": "4",
+			"idSubCategory": "5",
+			"name": "Pantalon de jogging fluid et doux",
+			"desc_short": "Du pur confort pour ce pantalon de jogging : un molleton fluide très doux à l'intérieur, elle va adorer ! ",
+			"price": "8",
+			"desc_long": "- Pantalon de jogging en molleton fluide<br>- Intérieur gratté tout doux<br>- Taille élastiquée avec cordon coulissant<br>- Imprimé en relief sous la ceinture<br>- Bords-côtes aux bas de jambes",
+			"nbImages": "3",
+			"tags": "color-beige style-uni"
+		}, {
+			"id": "34",
+			"idCategory": "4",
+			"idSubCategory": "5",
+			"name": "Pantalon à carreaux",
+			"desc_short": "Un pantalon entre style carotte et legging pour un look chic et trendy ! ",
+			"price": "12",
+			"desc_long": "- Pantalon en maille aspect lainage<br>- Motifs all-over<br>- Taille élastiquée froncée<br>- Lien de serrage cousu<br>- 2 poches devant<br>- Revers cousus",
+			"nbImages": "3",
+			"tags": "color-noir style-uni"
+		}
+		],
+	"categories": [
+		{
+			"id": "1",
+			"name": "Homme",
+			"imgPrefix": "homme"
+		}, {
+			"id": "2",
+			"name": "Femme",
+			"imgPrefix": "femme"
+		}, {
+			"id": "3",
+			"name": "Garçon",
+			"imgPrefix": "garcon"
+		}, {
+			"id": "4",
+			"name": "Fille",
+			"imgPrefix": "fille"
+		}
+	],
+	"subcategories": [
+		{
+			"id": "1",
+			"name": "T-Shirt",
+			"imgPrefix": "ts"
+		}, {
+			"id": "2",
+			"name": "Polo",
+			"imgPrefix": "polo"
+		}, {
+			"id": "3",
+			"name": "Pull",
+			"imgPrefix": "pull"
+		}, {
+			"id": "4",
+			"name": "Débardeur",
+			"imgPrefix": "debardeur"
+		}, {
+			"id": "5",
+			"name": "Pantalon",
+			"imgPrefix": "pantalon"
+		}, {
+			"id": "6",
+			"name": "Robe",
+			"imgPrefix": "robe"
+		}
+	],
+	"mv": [ "1", "11", "21","32"],
+	"news" : [ "2", "23" ]
+}

@@ -1,0 +1,92 @@
+.test12, .test13, .test14, .test15, .test16, .test17, .test18, .test19, .test20{
+    display: none;
+}
+
+.responsive{
+    width: 25%;
+}
+
+
+
+/* Paiement */
+.padding {
+    padding: 5rem !important
+}
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important;
+    border-color: #4ca746
+}
+
+
+
+.info{
+    width: auto;
+}
+
+fieldset{
+    border: solid 1px black;
+}
+
+
+.cadre{
+    border: solid 1px black;
+}
+
+.border-index{
+    border: solid 1px black;
+}
+
+/* Quantity panier */
+
+#myform {
+    text-align: center;
+    padding: 5px;
+    margin: 2%;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+
+
+
+/* Reponsive */
+
+@media screen and (max-width: 767px){
+    .responsive{
+        width: 100%;
+    }
+
+    .responsive2{
+        display: none;
+    }
+
+    #choixmenu{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .choixmenu{
+        display: none;
+    }
+}
+
+
+
+
+.tailleNew{
+    width: 20%;
+}
+
+
+
+.logoSize{
+    width: 30%;
+}
